@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <nav class="row align-items-center navbar-expand bg-dark">
+        <div class="col-1 homebutton navbutton" type=button>
+            Home
+        </div>
+        <div class="col-1 aboutbutton navbutton" type=button>
+            About
+        </div>
+        <div class="col-1 menubutton navbutton" type=button>
+            Menu
+        </div>
+    </nav>
+
+    <header class="row introduction">
+        <div class="col">
+            <div class="myName">Brant Ray</div>
+            <p class="myDescription"> All of the charm of someone who doesn't work in IT with the skills and knowledge
+                of someone who does</p>
+        </div>
+    </header>
+
+    <div class="row aboutSectionTitle">
+        <h1 class="col">About me:</h1>
+    </div>
+
+     <div class= "row aboutSection">
+         <p class="col aboutText"> This is some filler for the moment </p>
+     </div>   
+
+
+    <div class="row cardSection">
+        <div class="col card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/certified.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Certifications</h5>
+                <p class="card-text">I have earned multiple IT certifications such as A+, Server+, and more!</p>
+                <a href="#" class="btn btn-primary">See my certs</a>
+            </div>
+        </div>
+        <div class="col card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/diverse.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Diverse</h5>
+                <p class="card-text">I've had multiple jobs in my life that have helped me develop a wide range of
+                    skills!</p>
+                <a href="assets/resume.docx" class="btn btn-primary" download>Download my resume</a>
+            </div>
+        </div>
+        <div class="col card" style="width: 18rem;">
+            <img class="card-img-top" src="assets/coding.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">A Quick Learner</h5>
+                <p class="card-text">I am able to pick up new skills easily. Such as coding in C# and CSS/HTML!</p>
+                <a href="#" class="btn btn-primary">See my projects</a>
+            </div>
+        </div>
+    </div>
+
+<div class="row contactMe">
+
+    <!-- modify this form HTML and place wherever you want your form -->
+
+<form class="col"
+action="https://formspree.io/mbjzedky"
+method="POST"
+>
+<label>
+  Want to get in touch? Tell me your email:
+  <input type="text" name="_replyto">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+
+<!-- your other form fields go here -->
+
+<button type="submit">Send</button>
+</form>
+</div>
+
+
+</body>
+
+</html>
